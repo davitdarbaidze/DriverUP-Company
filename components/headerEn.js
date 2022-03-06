@@ -1,6 +1,12 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import firstpic from "../public/1.jpg";
+import secondpic from "../public/7.jpg";
+import thirdpic from "../public/7.jpg";
+import fourthpic from "../public/1.jpg";
+import fitfthpic from "../public/7.jpg";
+import Image from "next/image";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,8 +16,29 @@ import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper";
 const headerEn = () => {
   return (
-    <div className=" h-screen w-full">
-      <Swiper
+    <div className=" w-full">
+      
+      <div className="flex  justify-center">
+        <div className="lg:flex lg:gap-8 lg:justify-between lg: px-4">
+          <div>
+            <Image src={firstpic} alt="Picture of the author" />
+          </div>
+          <div>
+            <Image src={secondpic} alt="Picture of the author" />
+          </div>
+          <div>
+            <Image src={thirdpic} alt="Picture of the author" />
+          </div>
+          <div>
+            <Image src={fourthpic} alt="Picture of the author" />
+          </div>
+          <div>
+            <Image src={fitfthpic} alt="Picture of the author" />
+          </div>
+        </div>
+
+      </div>
+      {/* <Swiper
         navigation={true}
         autoplay={{
           delay: 4000,
@@ -46,7 +73,7 @@ const headerEn = () => {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>
           <div className="py-2 rounded drop-shadow-7xl">
             <div
@@ -75,7 +102,7 @@ const headerEn = () => {
             </div>
           </div>
         </SwiperSlide> */}
-      </Swiper>
+      {/* </Swiper> */}
     </div>
   );
 };

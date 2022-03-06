@@ -19,25 +19,8 @@ const navbar = (props) => {
       <div className="">
         <div className="bg-green"></div>
         <nav className=" px-2 sm:px-4 py-5 ">
-          <div className="container flex flex-wrap justify-between items-center mx-auto">
-            <Link href="/">
-              <div href="#" className="flex w-16 h-16">
-                <Link href="/">
-                  <button>
-                    <Image src={Logo} alt="Logo" className="rounded-2xl" />
-                  </button>
-                </Link>
-              </div>
-            </Link>
+          {/* <div className="container flex flex-wrap justify-center items-center mx-auto">
             <div className="flex md:order-2">
-              <Link href='/contact'>
-                <button
-                  type="button"
-                  className="text-main-dark hover:text-white hover:bg-green border-2 border-green rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
-                >
-                  Write us!
-                </button>
-              </Link>
               <button
                 data-collapse-toggle="mobile-menu-4"
                 type="button"
@@ -110,8 +93,8 @@ const navbar = (props) => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-main-3 pt-3 w-full">
+          </div> */}
+          {/* <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-main-3 pt-3 w-full">
             <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
               <div className="flex flex-row space-x-2 ">
                 <FaRegClock className="w-5 h-5" />
@@ -136,7 +119,7 @@ const navbar = (props) => {
                 </button>
               </Link>
             </div>
-          </div>
+          </div> */}
         </nav>
       </div>
     );
@@ -147,25 +130,8 @@ const navbar = (props) => {
       <div className="">
         <div className="bg-green"></div>
         <nav className=" px-2 sm:px-4 py-5 ">
-          <div className="container flex flex-wrap justify-between items-center mx-auto">
-            <Link href="/">
-              <div href="#" className="flex w-16 h-16">
-                <Link href="/">
-                  <button>
-                    <Image src={Logo} alt="Logo" className="rounded-2xl" />
-                  </button>
-                </Link>
-              </div>
-            </Link>
+          {/* <div className="container flex flex-wrap justify-center items-center mx-auto">
             <div className="flex md:order-2">
-            <Link href='/contact'>
-              <button
-                type="button"
-                className="text-main-dark hover:text-white hover:bg-green border-2 border-green rounded-3xl  px-5 py-2.5 text-center mr-3 md:mr-0 "
-              >
-                მოგვწერეთ!
-              </button>
-            </Link>
               <button
                 data-collapse-toggle="mobile-menu-4"
                 type="button"
@@ -201,7 +167,7 @@ const navbar = (props) => {
               </button>
             </div>
             <div
-              className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
+              className="hidden justify-center w-full md:flex md:w-auto md:order-1"
               id="mobile-menu-4"
             >
               <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0  text-main-3">
@@ -238,8 +204,8 @@ const navbar = (props) => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-main-3 pt-3 w-full">
+          </div> */}
+          {/* <div className="container mx-auto lg:flex lg:flex-row  lg:justify-between justify-center items-center space-y-2  text-main-3 pt-3 w-full">
             <div className="lg:flex lg:flex-row flex flex-col justify-center items-center space-x-12 lg:space-y-0 space-y-2">
               <div className="flex flex-row space-x-2 ">
                 <FaRegClock className="w-5 h-5" />
@@ -264,7 +230,7 @@ const navbar = (props) => {
                 </button>
               </Link>
             </div>
-          </div>
+          </div> */}
         </nav>
       </div>
     );
