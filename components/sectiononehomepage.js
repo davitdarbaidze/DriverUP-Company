@@ -7,6 +7,7 @@ import Image4 from "../public/image_10-2.jpg";
 import Image5 from "../public/image_03-2.jpg";
 const Contents = () => {
   return (
+    
     <div className="container mx-auto py-24  space-y-20 w-full">
       <div className=" lg:flex lg:flex-row justify-center px-12">
         <div>

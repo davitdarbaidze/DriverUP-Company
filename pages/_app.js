@@ -19,10 +19,10 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
-      <div className="flex justify-start px-4">
+      <div className="flex justify-end px-4 ">
         <button
           onClick={changeLanguage}
-          className="text-main-dark hover:text-white text-xs hover:bg-main-dark border-2 border-main-dark rounded px-2 py-1 mb-4 text-center mr-3 md:mr-0 "
+          className="text-main-dark hover:text-white text-xs hover:bg-main-dark border-2 border-main-dark rounded px-2 py-1 mb-4 text-center mr-3 md:mr-0 mt-6 "
         >
           <FaGlobe className="" />
           {langIcon}
